@@ -4,13 +4,13 @@
 		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
-		"minified": false,
+		"minified": true,
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
-	"appid": "wxaadda295a8acc79c",
-	"projectname": "map_wx",
+	"appid": "wx6161cf52fcb29a77",
+	"projectname": "%E5%A4%9A%E8%A7%84%E6%A0%BC%E5%95%86%E5%93%81%E6%9B%B4%E6%94%B9",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
