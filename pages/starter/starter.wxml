@@ -1,0 +1,14 @@
+<view class='container'>
+	<view class="remind-box" wx:if="{{remind}}">
+    <image class="remind-img" src="/images/more/loading.gif"></image>
+  </view>
+	   <image class='bg_images' wx:if="{{remind}}" src='/images/more/bg_image.png'></image>  
+	  <image class='bg_images' wx:if="{{subject}}" src='/images/more/1.5.png'></image>  
+		<view class='bg_images'></view> 
+	 <view class='content' wx:if="{{subject}}">
+		<view class='text_center'>甜田果园 果子香甜</view>
+		<view class='text_center'>绿色水果的家园</view>
+		<view class='text_center'>The home of green fruit</view>
+		<view class='confirm-btn' bindtap='goToIndex'><text>进入店铺</text></view> 
+	</view>
+</view>
